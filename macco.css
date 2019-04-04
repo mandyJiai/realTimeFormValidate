@@ -1,0 +1,41 @@
+.macco-form{
+	width: 500px;
+	margin:100px auto;
+}
+.maccoError{
+	color: red;
+}
+em{
+	color: red;
+}
+label,.controls,.maccoError{
+	float: left;
+}
+.blank{
+	height: 20px;
+}
+.clear{
+	clear: both;
+}
+.btn{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.form-group{
+	margin-top: 15px;
+	padding-top: 5px;
+}
+.username:{
+	height: 0px;
+}
+.username:after{
+	content: "请输入用户名";
+	position: relative;
+	top: -20px;
+	left:0px;
+	color: #cccccc;
+	font-size: 14px;
+}
+/*.form-control{
+	margin-top: 15px;
+}*/
